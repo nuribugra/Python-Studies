@@ -3,9 +3,6 @@
 from datetime import datetime
 import time
 
-date = datetime.now()
-
-
 first_name = input("Enter your first name: ")
 last_name = input("Enter your last name: ")
 
@@ -28,6 +25,7 @@ if education == 1:
 elif education == 2:
     education_name = "Undergraduate+"
 
+date = datetime.now()
 current_year = date.year
 age = current_year - birth_year
 
