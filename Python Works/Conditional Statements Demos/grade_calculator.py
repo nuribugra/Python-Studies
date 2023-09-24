@@ -1,15 +1,17 @@
-# Grade calculator is a program that assigns a letter grade to a student based on the average of their scores.
-# The program will ask the user for the number of tests and the scores for each test.
-# The program will then calculate the average and assign a letter grade based on the following scale:
+"""
+Grade calculator is a program that assigns a letter grade to a student based on the average of their scores.
+The program will ask the user for the number of tests and the scores for each test.
+The program will then calculate the average and assign a letter grade based on the following scale:
 
-# 95-100 : A+
-# 80-95 : A
-# 70-80 : B
-# 60-70 : C
-# 50-60 : D
-# 30-50 : E
-# 20-30 : F
-# 0-30 : F-
+95-100 : A+
+80-95 : A
+70-80 : B
+60-70 : C
+50-60 : D
+30-50 : E
+20-30 : F
+0-30 : F-
+"""
 
 import time
 
