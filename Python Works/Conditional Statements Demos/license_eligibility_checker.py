@@ -10,13 +10,13 @@ try:
     birth_year = int(input("Enter your birth year: "))
 except ValueError:
     print("Please enter a valid birth year.")
-    exit()
+    quit()
 
 try:
     education = int(input("What is your level of education(1-High School, 2-Undergraduate+): "))
 except ValueError:
     print("Please enter a valid education level.")
-    exit()
+    quit()
 
 education_name = ""
 

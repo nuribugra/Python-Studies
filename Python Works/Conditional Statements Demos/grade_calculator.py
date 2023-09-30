@@ -10,7 +10,7 @@ The program will then calculate the average and assign a letter grade based on t
 50-60 : D
 30-50 : E
 20-30 : F
-0-30 : F-
+0-20 : F-
 """
 
 import time
