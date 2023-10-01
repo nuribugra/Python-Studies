@@ -1,7 +1,6 @@
 def divide():
     print("*" * 20)
 
-
 # 1- Create a function that prints the given word to the screen a specified number of times.
 
 def prinTheWord(word, number):
