@@ -40,7 +40,7 @@ def deposit_money(account, amount):
 
     print(f"Your new balance is {account['balance']}")
 
-withdraw_money(accountA, 2000)
+withdraw_money(accountA, 1000000)
 
 deposit_money(accountB, 2000)
 
