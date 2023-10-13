@@ -29,7 +29,7 @@ class Quiz:
         print(f"Question {self.questionIndex + 1}: {question.question_text}")
 
         for q in question.question_options:
-            print(q)
+            print(q)                
         
         user_answer = input("Answer: ").upper()
         self.guess(user_answer)
