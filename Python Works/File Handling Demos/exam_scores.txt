@@ -2,3 +2,5 @@ Deniz Berk Demir: 55, 80, 65
 Arda Güler: 60, 45, 90
 Süleyman Faruk Sayar: 30, 55, 70
 Nuri Buğra Demir: 80, 86, 95
+Fatih Terim: 70, 80, 90
+Kerem Özalay: 40, 50, 65

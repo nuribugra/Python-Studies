@@ -1,5 +1,6 @@
 import time
 
+# Background: The letter_grade() function is used in the calculate_scores() function.
 def letter_grade(average):
     """
     90-100: AA / 4.00
@@ -32,6 +33,7 @@ def letter_grade(average):
     else:
         return "FF / 0.00"
 
+# Background: The calculate_scores() function is used in the read_scores() function.
 def calculate_scores(file):
     for line in file:
             names, scores = line.split(":")
@@ -45,17 +47,21 @@ def calculate_scores(file):
             time.sleep(0.25)
 
             print(names.ljust(20), str(scores).ljust(20), str(average).rjust(10), letter_grade(average).rjust(20))
+            # ljust() and rjust() methods are used to align the text to the left and right respectively.
     
 
+# Transaction 1: Read Scores
 def read_scores():
 
     with open("exam_scores.txt", "r", encoding="utf-8") as file:
         print("Exam Scores".center(70, "="))
         print("Name".ljust(20), "Scores".ljust(20), "Average".rjust(10), "Grade".rjust(20))
+        # At the top of the table, we have the titles of the columns.
         print("-"*70)
         calculate_scores(file)
         print("="*70)
 
+# Transaction 2: Add Scores
 def add_scores():
 
     time.sleep(1)
@@ -73,6 +79,7 @@ def add_scores():
     with open("exam_scores.txt", "a", encoding="utf-8") as file:
         file.write(f"{name}: {scores}\n")
 
+# Transaction 3: Save Scores
 def save_scores():
     # This function gives the averages, grades and names of the students in the exam_scores.txt file.
     
