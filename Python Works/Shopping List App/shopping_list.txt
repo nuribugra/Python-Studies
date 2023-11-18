@@ -1,0 +1,8 @@
+1-Juice
+2-Egg
+3-Milk
+4-Cereal
+5-Steak
+6-Apple
+7-Peach
+8-Orange

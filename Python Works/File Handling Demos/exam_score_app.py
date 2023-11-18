@@ -72,7 +72,7 @@ def add_scores():
 
     for i in range(number_of_exams):
         score = int(input(f"Exam {i+1}: "))
-        scores.append(score)
+        scores.append(score)    
     
     scores = str(scores).strip("[]")
 
